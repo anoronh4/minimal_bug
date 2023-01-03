@@ -5,20 +5,33 @@
         "https://github.com/nf-core/modules.git": {
             "modules": {
                 "nf-core": {
-                    "custom/dumpsoftwareversions": {
+                    "gatk4/bedtointervallist": {
                         "branch": "master",
                         "git_sha": "c8e35eb2055c099720a75538d1b8adb3fb5a464c",
-                        "installed_by": ["modules"]
+                        "installed_by": [
+                            "modules"
+                        ]
                     },
-                    "fastqc": {
+                    "gatk4/createsequencedictionary": {
                         "branch": "master",
                         "git_sha": "c8e35eb2055c099720a75538d1b8adb3fb5a464c",
-                        "installed_by": ["modules"]
+                        "installed_by": [
+                            "modules"
+                        ]
                     },
-                    "multiqc": {
+                    "picard/collectrnaseqmetrics": {
                         "branch": "master",
-                        "git_sha": "c8e35eb2055c099720a75538d1b8adb3fb5a464c",
-                        "installed_by": ["modules"]
+                        "git_sha": "54f28e020daf9215ab000da7af3b273e85639855",
+                        "installed_by": [
+                            "modules"
+                        ]
+                    },
+                    "ucsc/gtftogenepred": {
+                        "branch": "master",
+                        "git_sha": "511909dedab2a9955f2c3eae88abd3733edfd349",
+                        "installed_by": [
+                            "modules"
+                        ]
                     }
                 }
             }
